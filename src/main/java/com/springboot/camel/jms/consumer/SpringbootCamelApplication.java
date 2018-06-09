@@ -64,7 +64,6 @@ public class SpringbootCamelApplication {
 	@Bean
 	public ActiveMQConnectionFactory coreConnectionFactory() {
 		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory();
-		//connectionFactory.setBrokerURL("vm://localhost?broker.persistent=false");
 		connectionFactory.setBrokerURL(ActiveMQConnection.DEFAULT_BROKER_URL);
 		return connectionFactory;
 	}
