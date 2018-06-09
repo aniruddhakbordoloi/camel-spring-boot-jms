@@ -9,7 +9,6 @@ import org.apache.camel.ConsumerTemplate;
 import org.apache.camel.component.jms.JmsConfiguration;
 import org.apache.camel.spring.CamelBeanPostProcessor;
 import org.apache.camel.spring.SpringCamelContext;
-import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
