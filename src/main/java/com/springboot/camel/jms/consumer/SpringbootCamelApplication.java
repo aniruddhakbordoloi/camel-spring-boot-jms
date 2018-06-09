@@ -9,8 +9,10 @@ import org.apache.camel.ConsumerTemplate;
 import org.apache.camel.component.jms.JmsConfiguration;
 import org.apache.camel.spring.CamelBeanPostProcessor;
 import org.apache.camel.spring.SpringCamelContext;
+import org.apache.camel.spring.boot.CamelAutoConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -20,6 +22,7 @@ import javax.jms.ConnectionFactory;
 
 @SpringBootApplication
 @ComponentScan("com.springboot.camel")
+@EnableAutoConfiguration(exclude = {CamelAutoConfiguration.class})
 public class SpringbootCamelApplication {
 
 	@Autowired
