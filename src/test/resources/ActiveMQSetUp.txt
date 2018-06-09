@@ -7,5 +7,11 @@
 7)Now open the browser and type the url:http://localhost:8161/admin/
 If it is asking for user name and password (recent  versions are secured with password), provide ‘admin’ as username and password.
 
+In case we get an error for address already in use
+Go to task manager
+Select services
+Select the services button below
+Search internet Connection sharing (ICS)
+Stop this service
 
 http://www.coderpanda.com/jms-example-using-apache-activemq/
