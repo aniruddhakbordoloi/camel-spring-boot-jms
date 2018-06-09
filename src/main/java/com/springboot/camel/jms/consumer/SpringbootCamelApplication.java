@@ -85,9 +85,6 @@ public class SpringbootCamelApplication {
 	}
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(SpringbootCamelApplication.class, args);
 	}
-
-
 }
