@@ -1,0 +1,11 @@
+1)Download Apache ActiveMQ from ActiveMQ download page - http://activemq.apache.org/download.html.
+2)Extract the downloaded archive to suitable location.
+3)Open a command prompt
+4)Go to the bin directory of extracted ActiveMQ from command prompt.
+5)Run the 'activemq-admin.bat start' command.
+6)Once the ActiveMQ  completes the startup , the appropriate messages will be displayed in the console.
+7)Now open the browser and type the url:http://localhost:8161/admin/
+If it is asking for user name and password (recent  versions are secured with password), provide ‘admin’ as username and password.
+
+
+http://www.coderpanda.com/jms-example-using-apache-activemq/
