@@ -10,5 +10,6 @@ import org.springframework.stereotype.Component;
 public class MyCamelRoutes extends RouteBuilder{
     public void configure() throws Exception {
         System.out.println("check");
+        from("activemq:MESSAGE.GATEWAY").to("myCamelProcessor");
     }
 }
