@@ -12,5 +12,7 @@ public class MyCamelProcessor implements Processor {
     @Override
     public void process(Exchange exchange) throws Exception {
         System.out.println("in exchange");
+        final String message = exchange.getIn().getBody(String.class);
+        System.out.println("Bingo! The message in the gateway is : "+message);
     }
 }
